@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Number Lookup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Phone Number Lookup</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="search-container">
+                <input type="text" id="numberInput" placeholder="Enter Phone Number">
+                <button onclick="getNumberInfo()">Search</button>
+            </div>
+
+            <div id="result" class="hidden">
+                <div class="result-card">
+                    <h3>Owner Information</h3>
+                    <p id="ownerName"></p>
+                    <p id="cnic"></p>
+                    <p id="mobile"></p>
+                    <p id="operator"></p>
+                    <p id="address"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Created by Ehtisham</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
